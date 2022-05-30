@@ -7,10 +7,8 @@ getTable ${1}
 
 args="
     --table-name ${table}
-    --attribute-definitions
-        AttributeName=pk,AttributeType=S AttributeName=sk,AttributeType=S
-    --key-schema
-        AttributeName=pk,KeyType=HASH AttributeName=sk,KeyType=RANGE
+    --attribute-definitions AttributeName=pk,AttributeType=S
+    --key-schema AttributeName=pk,KeyType=HASH
     --billing-mode PAY_PER_REQUEST"
 
 addEndpointUrlArgs ${2}

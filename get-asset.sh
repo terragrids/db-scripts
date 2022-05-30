@@ -7,12 +7,10 @@ getTable ${1}
 
 args="
     --table-name ${table}
-    --key-condition-expression pk=:pk
-    --expression-attribute-values {\":pk\":{\"S\":\"asset|${3}\"}}
-    --max-items 1
+    --key {\"pk\":{\"S\":\"asset|${3}\"}}
     --return-consumed-capacity TOTAL"
 
 addEndpointUrlArgs ${2}
 
 echo ${args}
-aws dynamodb query ${args}
+aws dynamodb get-item ${args}
