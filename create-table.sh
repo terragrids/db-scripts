@@ -1,5 +1,5 @@
 #!/bin/bash
-# usage sh ./scan.sh [dev|prod] [local|remote]
+# usage sh ./create-table.sh [dev|prod] [local|remote]
 # defaults to [prod] [local]
 source ./common.sh
 
