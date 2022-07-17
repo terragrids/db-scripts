@@ -4,11 +4,16 @@ DynamoDB scripts
 ## Get Started
 Install a local instance of DynamoDB following [these instructions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html).
 
-From the `db-scripts` repository, start the database and create a terragrids table:
+From the `db-scripts` repository, start the database:
 ```
 sh ./start.sh
+```
+
+Leave the database running, open a separate terminal and run:
+```
 sh ./create-table.sh
 ```
+
 Test that the table has been created:
 ```
 sh ./scan.sh
