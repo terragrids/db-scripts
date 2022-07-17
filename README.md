@@ -4,6 +4,8 @@ DynamoDB scripts
 ## Get Started
 Install a local instance of DynamoDB following [these instructions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html).
 
+Install the AWS CLI from [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html).
+
 From the `db-scripts` repository, start the database:
 ```
 sh ./start.sh
