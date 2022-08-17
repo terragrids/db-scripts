@@ -1,5 +1,5 @@
 #!/bin/bash
-# usage sh ./get-asset.sh [dev|prod] [local|remote] [assetId]
+# usage sh ./put-terralands.sh [dev|prod] [local|remote]
 # defaults to [prod] [local] [null]
 source ./common.sh
 
