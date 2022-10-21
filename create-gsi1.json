@@ -1,0 +1,12 @@
+[
+  {
+    "Create": {
+      "IndexName": "gsi1",
+      "KeySchema": [
+        { "AttributeName": "gsi1pk", "KeyType": "HASH" },
+        { "AttributeName": "data", "KeyType": "RANGE" }
+      ],
+      "Projection": { "ProjectionType": "KEYS_ONLY" }
+    }
+  }
+]
