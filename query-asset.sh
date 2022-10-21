@@ -1,6 +1,7 @@
 #!/bin/bash
-# usage sh ./query-asset-contract.sh [dev|prod] [local|remote] [assetId]
+# usage sh ./query-asset.sh [dev|prod] [local|remote] [assetId]
 # defaults to [prod] [local] [null]
+
 source ./common.sh
 
 getTable ${1}

@@ -10,11 +10,22 @@ getTable() {
     fi
 }
 
+localEndpointUrl='--endpoint-url http://localhost:8000'
+
+getEndpointUrl() {
+    local endpoint=${1-local}
+
+    if [[ $endpoint = 'local' ]]
+    then
+        endpointUrl=${localEndpointUrl}
+    fi
+}
+
 addEndpointUrlArgs() {
     local endpoint=${1-local}
 
     if [[ $endpoint = 'local' ]]
     then
-        args+=' --endpoint-url http://localhost:8000'
+        args+=" ${localEndpointUrl}"
     fi
 }
