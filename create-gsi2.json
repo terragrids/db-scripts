@@ -1,0 +1,15 @@
+[
+  {
+    "Create": {
+      "IndexName": "gsi2",
+      "KeySchema": [
+        { "AttributeName": "gsi2pk", "KeyType": "HASH" },
+        { "AttributeName": "data", "KeyType": "RANGE" }
+      ],
+      "Projection": {
+        "ProjectionType": "INCLUDE",
+        "NonKeyAttributes": ["gsi1pk", "name", "offChainImageUrl"]
+      }
+    }
+  }
+]
