@@ -8,7 +8,7 @@
       ],
       "Projection": {
         "ProjectionType": "INCLUDE",
-        "NonKeyAttributes": ["name", "offChainImageUrl"]
+        "NonKeyAttributes": ["name", "offChainImageUrl", "offchainUrl", "power"]
       }
     }
   }
