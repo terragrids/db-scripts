@@ -8,7 +8,16 @@
       ],
       "Projection": {
         "ProjectionType": "INCLUDE",
-        "NonKeyAttributes": ["name", "offChainImageUrl", "offchainUrl", "power"]
+        "NonKeyAttributes": [
+          "name",
+          "offChainImageUrl",
+          "offchainUrl",
+          "power",
+          "created",
+          "withdrawn",
+          "positionX",
+          "positionY"
+        ]
       }
     }
   }
