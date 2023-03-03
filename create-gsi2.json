@@ -8,7 +8,14 @@
       ],
       "Projection": {
         "ProjectionType": "INCLUDE",
-        "NonKeyAttributes": ["gsi1pk", "name", "offChainImageUrl"]
+        "NonKeyAttributes": [
+          "gsi1pk",
+          "name",
+          "offchainUrl",
+          "offChainImageUrl",
+          "positionX",
+          "positionY"
+        ]
       }
     }
   }
