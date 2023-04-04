@@ -16,7 +16,8 @@
           "created",
           "withdrawn",
           "positionX",
-          "positionY"
+          "positionY",
+          "hash"
         ]
       }
     }
