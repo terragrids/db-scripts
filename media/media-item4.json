@@ -1,0 +1,6 @@
+{
+  "pk": { "S": "fileId|23c9d408-3045-4464-8afb-9b6a0a7ed651" },
+  "gsi1pk": { "S": "type|place" },
+  "data": { "S": "media|1|modern-apartment" },
+  "hash": { "S": "QmTFh8S41pVdBcREx9E9RHg3sM4iK675nk5LH3i1n48qDp" }
+}

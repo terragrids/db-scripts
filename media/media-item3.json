@@ -1,6 +1,6 @@
 {
   "pk": { "S": "fileId|1cbeb62a-935d-434e-875d-f17c9f5a2d4c" },
   "gsi1pk": { "S": "type|place" },
-  "data": { "S": "media|detached|3" },
+  "data": { "S": "media|3|traditional-house" },
   "hash": { "S": "QmP9Jxm4xxuKZyUxfftBESy2V8EZAHWEu4P6m6sPoyoGzf" }
 }

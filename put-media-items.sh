@@ -9,7 +9,7 @@ source ./common.sh
 
 getTable ${1}
 
-for i in {1..3};
+for i in {1..4};
 do
     args="
         --table-name ${table}
