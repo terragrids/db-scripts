@@ -1,5 +1,5 @@
 #!/bin/bash
-# usage sh ./query-media-item.sh [dev|prod] [local|remote] [assetId]
+# usage sh ./query-media-items.sh [dev|prod] [local|remote] [assetId]
 # defaults to [prod] [local] [null]
 
 source ./common.sh
