@@ -1,0 +1,6 @@
+{
+  "pk": { "S": "fileId|a422ba54-8d12-46b3-8e94-5c6c02aa8d35" },
+  "gsi1pk": { "S": "type|place" },
+  "data": { "S": "media|1|modern-house" },
+  "hash": { "S": "Qmf3Vup5WkJGtPydCChj4DZouquEf9eX5vgp9GSrcZfrjZ" }
+}
