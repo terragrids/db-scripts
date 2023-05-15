@@ -1,0 +1,7 @@
+{
+  "pk": { "S": "user|oauth|auth0|640718201114a3dab2f81c17" },
+  "gsi1pk": { "S": "user|id|476a813b-0ad4-432c-abf8-ad73b5db9387" },
+  "data": { "S": "user|created|1679920521263" },
+  "lastModified": { "N": "1679920521263" },
+  "permissions": { "NS": ["0"] }
+}

@@ -1,0 +1,6 @@
+{
+  "pk": { "S": "fileId|3703913d-b1cd-4419-ae10-1c4681ae88f7" },
+  "gsi1pk": { "S": "type|tracker" },
+  "data": { "S": "media|1|gas-meter" },
+  "hash": { "S": "QmZuVsiAiYFGkruxtMUM1vVj67D5sdRbmRdS5hxuC88nSR" }
+}
