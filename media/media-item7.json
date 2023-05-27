@@ -1,6 +1,6 @@
 {
-  "pk": { "S": "fileId|3703913d-b1cd-4419-ae10-1c4681ae88f7" },
+  "pk": { "S": "fileId|e11cc401-7c0a-4d93-bfc3-1ca203cb540f" },
   "gsi1pk": { "S": "type|tracker" },
   "data": { "S": "media|1|gas-meter" },
-  "hash": { "S": "QmZuVsiAiYFGkruxtMUM1vVj67D5sdRbmRdS5hxuC88nSR" }
+  "hash": { "S": "Qmdh1yNNmsY88H5Jzee29nBvzKg2yEo6gVSw2aeDQJhWMQ" }
 }

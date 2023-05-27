@@ -10,7 +10,7 @@ args="
     --table-name ${table}
     --index-name gsi1
     --key-condition-expression gsi1pk=:gsi1pk
-    --expression-attribute-values {\":gsi1pk\":{\"S\":\"type|place\"}}
+    --expression-attribute-values {\":gsi1pk\":{\"S\":\"type|tracker\"}}
     --max-items 5
     --return-consumed-capacity TOTAL"
 

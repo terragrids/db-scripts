@@ -1,6 +1,6 @@
 {
-  "pk": { "S": "fileId|0f42af3a-a2b9-43a7-ab00-9fa0d6dbd17e" },
+  "pk": { "S": "fileId|75199628-ce60-48c3-a6e0-fc2af27a96f1" },
   "gsi1pk": { "S": "type|tracker" },
   "data": { "S": "media|1|electricity-meter" },
-  "hash": { "S": "Qmf2cTB48DitPSHoJhSzWezWUyZhCLDUEJMpxyz72oKVHg" }
+  "hash": { "S": "QmdDiKUKgx1WDdpfoR5wgEpcpwQM3wsjhmrQbCimv54bN2" }
 }
