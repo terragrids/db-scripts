@@ -1,5 +1,5 @@
 #!/bin/bash
-# usage sh ./get-project.sh [dev|prod] [local|remote] [projectId]
+# usage sh ./get-reading.sh [dev|prod] [local|remote] [projectId]
 # defaults to [prod] [local] [null]
 source ./common.sh
 
@@ -7,7 +7,7 @@ getTable ${1}
 
 args="
     --table-name ${table}
-    --key {\"pk\":{\"S\":\"project|${3}\"}}
+    --key {\"pk\":{\"S\":\"reading|${3}\"}}
     --return-consumed-capacity TOTAL"
 
 addEndpointUrlArgs ${2}
